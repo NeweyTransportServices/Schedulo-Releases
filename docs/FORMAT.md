@@ -18,7 +18,8 @@ Raw base URL: `https://raw.githubusercontent.com/NeweyTransportServices/Schedulo
       "descriptor": "TransXChange",
       "version": "0.5.0",
       "released": "2026-10-22",
-      "download": "https://github.com/NeweyTransportServices/Schedulo-Releases/releases/download/txc-v0.5.0/Schedulo-TXC-v0.5.0-windows-x64.zip",
+      "file": "apps/TXC/Schedulo-TXC.exe",
+      "download": null,
       "notes": "https://github.com/NeweyTransportServices/Schedulo-Releases/releases/tag/txc-v0.5.0"
     }
   }
@@ -29,8 +30,11 @@ Raw base URL: `https://raw.githubusercontent.com/NeweyTransportServices/Schedulo
   `nts_licence::Product::short()`: `TXC`, `BUS`, `COACH`, `COSTING`, `NSA`,
   `FLEET`, `WORKSHOP`, `ROSTER`, `DRIVER`, `TM`.
 - `version` is `MAJOR.MINOR.PATCH` (no leading `v`); `null` means not
-  released yet. `released` is `YYYY-MM-DD` or `null`. `download` is the zip
-  (or `null`); `notes` is the release page (or `null`).
+  released yet. `released` is `YYYY-MM-DD` or `null`. `file` is the program's
+  path in this repository (under `apps/`), which the Schedulo dashboard
+  downloads and installs; `null` means not available yet. `download` is an
+  optional zip for manual download
+  (or `null`); `notes` is a release-notes page (or `null`).
 - An app compares its own `CARGO_PKG_VERSION` with its product's `version`
   and offers the update only when the published one is newer. Unknown fields
   are ignored; if `schema` is greater than 1, the app ignores the file.

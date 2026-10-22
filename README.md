@@ -3,9 +3,28 @@
 **Transport planning software by Newey Transport Services**
 PLAN · OPERATE · MANAGE · COMPLY · GROW
 
-This is the public home for Schedulo downloads. It holds the finished
-programs only, never source code. The Schedulo apps and the Schedulo
+This is the public home for Schedulo: the **Schedulo dashboard app** (source
+in `src/`) and the finished Schedulo programs it installs (in `apps/`). It holds
+compiled programs only, never the apps' source code. The Schedulo apps and the
 dashboard read this repository to find new versions and revoked licence keys.
+
+## The Schedulo dashboard
+
+One program, `Schedulo.exe`. On every start it:
+
+1. creates its folders (`%LOCALAPPDATA%\Schedulo\apps\<product>\` for the
+   programs, and `%APPDATA%\Schedulo\` for the shared revoked-keys list);
+2. reads `releases.json` here and downloads, from `apps/`, any product that is
+   newer than the one installed (or not installed yet);
+3. refreshes the owner-signed revoked-keys list for every Schedulo app;
+4. shows every product as its brand tile with an **Open** button.
+
+It needs no account or access token: everything it reads is public. Offline,
+it opens the installed versions as normal.
+
+Build it with `cargo build --release` (output `target/release/Schedulo.exe`).
+To try a release before pushing it, set `SCHEDULO_RELEASES` to a local copy of
+this repository and run Schedulo: it reads from that folder instead.
 
 ## Products
 
@@ -41,7 +60,7 @@ The two files apps read, and how they must use them, are described in
 
 To publish a new version by hand:
 
-1. Create a release here (tag `<product>-v<version>`, e.g. `txc-v0.5.0`) and
-   attach the zip.
-2. Update that product's entry in [`releases.json`](releases.json) (version,
-   date, download link) and the table above.
+1. Copy the program into its folder in [`apps/`](apps/README.md), e.g.
+   `apps/TXC/Schedulo-TXC.exe`.
+2. Update that product's entry in [`releases.json`](releases.json) (`version`,
+   `released`, `file`) and the table above, then commit and push.
