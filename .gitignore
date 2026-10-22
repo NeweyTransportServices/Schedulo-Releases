@@ -1,0 +1,12 @@
+/target
+/vendor
+/.cargo/
+*.pdb
+/dist
+/*.exe
+
+# Private keys - never commit
+*.ntsroot
+
+# Claude Code agent worktrees
+/.claude/
