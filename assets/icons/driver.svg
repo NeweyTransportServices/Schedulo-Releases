@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Schedulo Driver">
+<title>Schedulo Driver</title>
+<defs><linearGradient id="gDriver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9B73F7"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+<rect width="256" height="256" rx="56.32" fill="url(#gDriver)"/>
+<rect x="51.2" y="68.4" width="16.9" height="3.99" rx="0" fill="#FFFFFF"/>
+<rect x="51.2" y="59.65" width="3.99" height="21.5" rx="2" fill="#FFFFFF"/>
+<rect x="66.56" y="54.73" width="129.64" height="31.33" rx="13.82" fill="#CBB6FB"/>
+<rect x="66.56" y="54.73" width="61.44" height="31.33" rx="13.82" fill="#FFFFFF"/>
+<rect x="165.79" y="106.8" width="39.01" height="3.99" rx="0" fill="#FFFFFF"/>
+<rect x="200.81" y="98.05" width="3.99" height="21.5" rx="2" fill="#FFFFFF"/>
+<rect x="51.2" y="93.13" width="116.12" height="31.33" rx="13.82" fill="#CBB6FB"/>
+<rect x="51.2" y="145.2" width="16.28" height="3.99" rx="0" fill="#FFFFFF"/>
+<rect x="51.2" y="136.45" width="3.99" height="21.5" rx="2" fill="#FFFFFF"/>
+<rect x="65.95" y="131.53" width="126.57" height="31.33" rx="13.82" fill="#CBB6FB"/>
+<rect x="118.78" y="131.53" width="73.73" height="31.33" rx="13.82" fill="#071433"/>
+<rect x="190.05" y="183.6" width="14.75" height="3.99" rx="0" fill="#FFFFFF"/>
+<rect x="200.81" y="174.85" width="3.99" height="21.5" rx="2" fill="#FFFFFF"/>
+<rect x="75.78" y="169.93" width="115.81" height="31.33" rx="13.82" fill="#CBB6FB"/>
+<rect x="75.78" y="169.93" width="64.51" height="31.33" rx="13.82" fill="#FFFFFF"/>
+</svg>

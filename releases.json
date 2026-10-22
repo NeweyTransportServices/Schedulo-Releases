@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "updated": "2026-10-22",
+  "products": {
+    "TXC":      { "name": "Schedulo TXC",      "descriptor": "TransXChange",                "version": "0.5.0", "released": null, "download": null, "notes": null },
+    "BUS":      { "name": "Schedulo Bus",      "descriptor": "Bus scheduling",              "version": null, "released": null, "download": null, "notes": null },
+    "COACH":    { "name": "Schedulo Coach",    "descriptor": "Coach scheduling",            "version": null, "released": null, "download": null, "notes": null },
+    "COSTING":  { "name": "Schedulo Costing",  "descriptor": "Operational costing",         "version": null, "released": null, "download": null, "notes": null },
+    "NSA":      { "name": "Schedulo NSA",      "descriptor": "Next Stop Announcements",     "version": null, "released": null, "download": null, "notes": null },
+    "FLEET":    { "name": "Schedulo Fleet",    "descriptor": "Vehicle & asset management",  "version": null, "released": null, "download": null, "notes": null },
+    "WORKSHOP": { "name": "Schedulo Workshop", "descriptor": "Maintenance & workshop",      "version": null, "released": null, "download": null, "notes": null },
+    "ROSTER":   { "name": "Schedulo Roster",   "descriptor": "Crew rostering",              "version": null, "released": null, "download": null, "notes": null },
+    "DRIVER":   { "name": "Schedulo Driver",   "descriptor": "Driver management",           "version": null, "released": null, "download": null, "notes": null },
+    "TM":       { "name": "Schedulo TM",       "descriptor": "Transport management",        "version": null, "released": null, "download": null, "notes": null }
+  }
+}
